@@ -53,7 +53,7 @@ if (semver.satisfies(process.version, '9.x')) {
 const program = require('commander');
 // ? 查看版本 
 program.version(`jay-app-cli ${require('../package').version}`).usage('<command> [options]')
-console.log('node 控制台指令:',process.argv) //node 控制台指令: [ '/usr/local/bin/node', '/usr/local/bin/jay-app-cli', 'jj' ]
+//console.log('node 控制台指令:',process.argv) //node 控制台指令: [ '/usr/local/bin/node', '/usr/local/bin/jay-app-cli', 'jj' ]
 program.parse(process.argv)
 program
     .command('init <app-name>')
@@ -121,8 +121,6 @@ function cleanArgs(cmd) {
 
 // ! 提醒用户提供了多余的参数
 function extraParams(index, length) {
-    console.log('hkabdsabh',index, length)
-    console.log('hkabdsabh',process.argv.slice(index))
     // if (minimist(process.argv.slice(index).length > length)) {
     //     logger.warning(chalk.yellow('你提供的多余的参数将被忽略'))
     // }
