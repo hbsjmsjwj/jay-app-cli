@@ -1,6 +1,6 @@
 {
   "name": "jay-app-cli",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "CLI，配置vue项目模版,配置react模版",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "bin": {
     "jay-app-cli": "bin/www.js"
   },
-  "keyword": [
+  "keywords": [
     "jay",
     "cli",
     "vue",
@@ -40,7 +40,6 @@
     "eslint-plugin-react": "7.17.0",
     "prettier": "1.19.1"
   },
-  "keywords": [],
   "author": "756774388@qq.com",
   "license": "ISC"
 }
