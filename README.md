@@ -11,8 +11,9 @@
 
 - `jay-app-cli init demo` 初始化项目
 - `cd demo` 进入到项目目录
-- `npm i` 安装依赖
-- `npm run start` 启动项目
+- `如果选择electron项目，推荐使用yarn`
+- `npm i (electron项目使用 yarn install)` 安装依赖
+- `npm run start (electron项目使用 yarn dev)` 启动项目
 
 ### Email
 - `756774388@qq.com`
